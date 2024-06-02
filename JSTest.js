@@ -16,9 +16,9 @@ function listofNFTs () {
     for(let i=0; i < TotalNFTs.length; i++) {
     console.log("\nID: \t\t" + (i + 1)); 
     console.log("Name: \t\t" + TotalNFTs[i].name);
-    console.log("Eyecolor: \t" + TotalNFTs[i].hairColor);
-    console.log("Shirt Type: " + TotalNFTs[i].accountType);
-    console.log("Bling \t\t" + TotalNFTs[i].city);
+    console.log("Hair color: \t" + TotalNFTs[i].hairColor);
+    console.log("Account Type: " + TotalNFTs[i].accountType);
+    console.log("City \t\t" + TotalNFTs[i].city);
     }
     }
 
